@@ -58,7 +58,24 @@ label {
     background-color: white;
     color: black;
 }
+.contact-button {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    z-index: 1000; /* Ensure the button is on top */
+}
 
+.contact-button:hover {
+    background-color: white;
+    color: black;
+}
 .questions {
     position: absolute;
     top: 1%;
